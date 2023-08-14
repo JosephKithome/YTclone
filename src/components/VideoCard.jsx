@@ -7,7 +7,6 @@ import {
 } from '../utils/constants'
 
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
-    console.log(snippet)
     return (
         <Card>
             <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
