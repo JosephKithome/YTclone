@@ -19,7 +19,7 @@ import {
     <Route name="home" path='/' element={<Feed/>} />
     <Route name="videos" path='/video/:id' element={<VideoDetail/>} />
     <Route name="channel_detail" path='/channel/:id' element={<ChannelDetail/>} />
-    <Route name="search" path='/search' element={<SearchFeed/>} />
+    <Route name="search" path='/search/:searchTerm' element={<SearchFeed/>} />
   </Routes>
 </Box>
   
